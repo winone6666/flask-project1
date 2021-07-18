@@ -32,4 +32,6 @@ def tours(id):
                            country=tour[id]['country'], departure=depart[tour[id]['departure']], departures=depart,
                            nights=tour[id]['nights'], description=tour[id]['description'],
                            picture=tour[id]['picture'], price=tour[id]['price'], stars=tour[id]['stars'])
-app.run()
+
+if __name__ == '__main__':
+    app.run()
